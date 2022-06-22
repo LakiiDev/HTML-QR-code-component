@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Website url](https://lakiidev.github.io/HTML-QR-code-component/)
 
 ## My process
 ### Built with
@@ -28,15 +28,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 
 ### What I learned
+In this project I learned how to make website using given files from Frontend Mentor.
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+In the future, I would like to work more on more complicated websites. Also it would be nice if I could use flexboxes more often.
 
 ## Author
 - Frontend Mentor - [@LakiDev](https://www.frontendmentor.io/profile/LakiDev)
