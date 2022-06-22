@@ -1,0 +1,1 @@
+# HTML-QR-code-component
