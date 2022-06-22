@@ -36,4 +36,4 @@ In this project I learned how to make website using given files from Frontend Me
 In the future, I would like to work more on more complicated websites. Also it would be nice if I could use flexboxes more often.
 
 ## Author
-- Frontend Mentor - [@LakiDev](https://www.frontendmentor.io/profile/LakiDev)
+- Frontend Mentor - [@LakiDev](https://www.frontendmentor.io/profile/LakiiDev)
