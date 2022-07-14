@@ -1,0 +1,77 @@
+:root
+{
+    --btnColor: rgb(44,125,250);
+    --contentColor: hsl(0, 0%, 100%);
+    --backgroundColor:hsl(212, 45%, 89%);
+    --headingColor:hsl(218, 44%, 22%);
+    --paragraphColor:hsl(220, 15%, 55%);
+    --shadow:rgba(0, 0, 0, 0.005);
+}
+body
+{
+    transition: all .3s;
+    font-family: 'Signika', sans-serif;
+    background-color:var(--backgroundColor);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 40px;
+    position: relative;
+    .content
+    {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--contentColor);
+        padding: 15px 20px 20px;
+        margin-bottom: 10px;
+        box-shadow: 12px 12px 2px 1px var(--shadow);
+        border-radius: 20px;
+        img
+        {
+            overflow:visible;
+            max-height: 290px;
+            border-radius: 10px;
+        }
+        h1
+        {
+            padding-top: 10px;
+            width: 250px;
+            font-size: 22px;
+            font-weight: 700;
+            color:var(--headingColor);
+        }
+        p
+        {
+            padding-bottom: 20px;
+            width: 250px;
+            font-size: 16px;
+            font-weight: 400;
+            color:var(--paragraphColor) 
+        }
+    }
+    .dark-mode-btn
+        {
+            position: absolute;
+            top: 2rem;
+            right:0;
+            width: 3rem;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+        }
+    
+}
+.darkmode
+{
+    --btnColor: rgb(255, 255, 255);
+    --contentColor: hsl(251, 100%, 11%);
+    --backgroundColor:hsl(218, 44%, 22%);
+    --headingColor:rgb(255, 255, 255);
+    --paragraphColor:hsl(220, 15%, 55%);
+    --shadow:rgba(0, 0, 0, 0.008);
+}

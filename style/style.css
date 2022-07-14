@@ -1,0 +1,94 @@
+:root {
+  --btnColor: rgb(44,125,250);
+  --contentColor: hsl(0, 0%, 100%);
+  --backgroundColor:hsl(212, 45%, 89%);
+  --headingColor:hsl(218, 44%, 22%);
+  --paragraphColor:hsl(220, 15%, 55%);
+  --shadow:rgba(0, 0, 0, 0.005);
+}
+
+body {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  font-family: 'Signika', sans-serif;
+  background-color: var(--backgroundColor);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+body .content {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--contentColor);
+  padding: 15px 20px 20px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 12px 12px 2px 1px var(--shadow);
+          box-shadow: 12px 12px 2px 1px var(--shadow);
+  border-radius: 20px;
+}
+
+body .content img {
+  overflow: visible;
+  max-height: 290px;
+  border-radius: 10px;
+}
+
+body .content h1 {
+  padding-top: 10px;
+  width: 250px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--headingColor);
+}
+
+body .content p {
+  padding-bottom: 20px;
+  width: 250px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--paragraphColor);
+}
+
+body .dark-mode-btn {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  width: 3rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.darkmode {
+  --btnColor: rgb(255, 255, 255);
+  --contentColor: hsl(251, 100%, 11%);
+  --backgroundColor:hsl(218, 44%, 22%);
+  --headingColor:rgb(255, 255, 255);
+  --paragraphColor:hsl(220, 15%, 55%);
+  --shadow:rgba(0, 0, 0, 0.008);
+}
+/*# sourceMappingURL=style.css.map */
